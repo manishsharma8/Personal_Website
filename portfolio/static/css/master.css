@@ -1,0 +1,208 @@
+body{
+    background-color: #13141D;
+    color: white;
+    font-family: customlight;
+}
+
+@font-face{
+    font-family: "customlight";
+    src: url('/static/css/fonts/HelveticaNeueLight.ttf');
+}
+
+@font-face{
+    font-family: "custom";
+    src: url('/static/css/fonts/HelveticaNeueMedium.ttf');
+}
+
+.landing{
+    /* margin: 150px 300px 150px 300px; */
+    margin-top: 10%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+.landing h1{
+    font-weight: 300;
+}
+
+.neon{
+    color: #61FFF6;
+}
+
+/* #Layer_1{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+} */
+
+.about{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.heading{
+    margin-bottom: 5%;
+    font-size: 50px;
+}
+
+.about p{
+    font-size: 20px;
+}
+
+.heading{
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.heading:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    bottom: -8px;
+    left: 25%;
+    border-bottom: 2px solid #61FFF6;
+}
+
+.skills{
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.col{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+hr{
+    color: white;
+    background-color: white;
+    margin: 2%;
+}
+
+.education{
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.about p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.projects a{
+    font-size: 70px;
+    color: #61FFF6;
+}
+
+.projects a:hover{
+    color: white;
+}
+
+.projects{
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.neon-btn{
+    border: 3px solid #61FFF6;
+    border-radius: 3px;
+    background-color: #252738;
+    color: white;
+    width: 100%;
+    height: 8%;
+}
+
+.neon-btn:hover{
+    background-color: #61FFF6;
+    color: #252738;
+}
+
+.contact{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+label{
+    display: none;
+}
+
+.form-control{
+    background-color: #252738;
+    border: none;
+}
+
+footer{
+    padding: 50px;
+    padding-top: 2%;
+    background-color: black;
+}
+
+.info{
+    text-align: left;
+}
+
+.links{
+    text-align: right;
+    font-size: 50px;
+    padding-right: 5%;
+}
+
+.links a{
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #404461;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #61FFF6;
+}
+
+a:not([href]){
+    color: #404461;
+}
+
+a:not([href]):hover{
+    color: #61FFF6;
+}
+
+.landing .o1{
+    position: relative;
+    top: -20%;
+    left: +20%;
+}
+
+.landing .o2{
+    position: relative;
+    top: -20%;
+    left: -20%;
+}
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(10px, 10px); }
+    to   { transform: translate(0, -0px); }    
+}
