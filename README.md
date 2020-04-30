@@ -9,7 +9,7 @@ bootstrap4==0.1.0 <br>
 # Running the website in local host
 Clone this project at the desired location 
 ```
-git clone https://github.com/manishsharma8/ACM_Bennett_Website.git
+git clone https://github.com/manishsharma8/Personal_Website.git
 ```
 Change the current directory in terminal to the project directory <br>
 Install Requirements
