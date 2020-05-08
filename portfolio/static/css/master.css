@@ -206,3 +206,15 @@ a:not([href]):hover{
     65%  { transform: translate(10px, 10px); }
     to   { transform: translate(0, -0px); }    
 }
+
+.skills h2{
+    margin: 5px;
+    background-color: #252738;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skills .col{
+    margin: 5px;
+    box-sizing: border-box;
+}
