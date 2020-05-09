@@ -11,7 +11,7 @@ def HomePage(request):
         subject = form.cleaned_data['subject']
         from_email = form.cleaned_data['email']
         message = form.cleaned_data['text'] + '\n' + form.cleaned_data['name']+ '\n' + form.cleaned_data['email']
-        send_mail(subject, message, from_email, ['E19CSE053@bennett.edu.in'], fail_silently=False)
+        send_mail(subject, message, from_email, ['Your_Email'], fail_silently=False)
 
     context = {
         'form' : form
